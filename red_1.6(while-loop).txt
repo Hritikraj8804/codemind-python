@@ -1,0 +1,81 @@
+for i in range (1,6):
+    print(i,end=' ')
+print(i)
+print()
+
+i=1
+while i<=5:
+    print(i)
+    i+=1
+print(i)
+
+##i=-10
+##while i<=10:
+##    i+=1
+##    if i==0:
+##        continue
+##    print(i)
+##
+
+##i=1
+##while i<=30:
+##    i+=1
+##    if i%5==0:
+##        print(i)
+##    
+## print()
+
+i=1
+while i<=30:
+    i+=1
+    if i%5!=0:
+        continue
+    print(i)
+i=31
+while i>=5:
+    i-=1
+    if i%5!=0:
+        continue
+    print(i)
+    
+##did='hritik88.com'
+##dpw='12345'
+##for i in range(5):
+##    uid=input()
+##    upw=input()
+##    if did==uid and dpw==upw:
+##        print('login successfull.')
+##    else:
+##        print('wrong credntials.')
+##else:
+##    print('account blockedmfor 24 Hours.')
+##  
+##
+
+##did='hritik88.com'
+##dpw='12345'
+##for i in range(5):
+##    uid=input()
+##    upw=input()
+##    if did==uid and dpw==upw:
+##        print('login successfull.')
+##        break
+##    else:
+##        print('wrong credntials.')
+##if(i==4):
+##    print('account blockedmfor 24 Hours.')
+
+did='hritik88.com'
+dpw='12345'
+s=0
+for i in range(5):
+    uid=input()
+    upw=input()
+    if did==uid and dpw==upw:
+        print('login successfull.')
+        break
+    else:
+        print('wrong credntials.')
+        s+=1
+if(s!=0):
+    print('account blocked for 24 Hours.') 
