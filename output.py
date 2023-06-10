@@ -1,0 +1,6 @@
+name=input()
+per=float(input())
+print('my name is:',name,'and','percentage:',per)
+print('my name is:'+name+' and percentage:'+str(per))
+print(f'my name is:{name} and percentage:{per}')
+print('my name is:{} and percentage:{}'.format(name,per))
