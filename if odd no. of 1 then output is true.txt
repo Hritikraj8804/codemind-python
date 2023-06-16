@@ -1,0 +1,1 @@
+if odd no. of 1 then output is true
